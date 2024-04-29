@@ -1,0 +1,49 @@
+{
+  "name": "savoryfood",
+  "version": "0.0.1",
+  "repository": "https://github.com/LeviLovie/Savoryfood",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src",
+    "compile": "tsc --jsx react --noEmit -p .",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@emotion/core": "11.0.0",
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.5",
+    "@types/react-dom": "^18.3.0",
+    "bootstrap": "^5.3.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "18.2.0",
+    "react-markdown": "9.0.1",
+    "react-router-dom": "6.22.3",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "11.11.0",
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5",
+    "vite": "5.2.10",
+    "vite-plugin-checker": "0.6.4",
+    "vite-plugin-markdown": "2.2.0",
+    "vite-plugin-svgr": "4.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
