@@ -1,0 +1,20 @@
+nav {
+  background-color: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+    padding: 1rem 2rem;
+
+    li {
+      margin: 0;
+      list-style: none;
+    }
+  }
+}
